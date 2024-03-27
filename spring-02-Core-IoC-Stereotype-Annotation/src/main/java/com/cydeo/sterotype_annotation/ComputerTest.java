@@ -1,6 +1,7 @@
 package com.cydeo.sterotype_annotation;
 
 import com.cydeo.sterotype_annotation.config.PcConfig;
+import com.cydeo.sterotype_annotation.monitorfactory.Monitor;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
