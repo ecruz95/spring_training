@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ComponentScan("com.cydeo") //will search for components in all packages within com -> cydeo
+@ComponentScan("com.cydeo") //will search for components in all classes within package com.cydeo
 public class PcConfig {
 
 }
