@@ -12,6 +12,7 @@ import java.beans.BeanProperty;
 @Configuration
 public class PcConfig {
 
+    @Bean
     public Dimensions dimensions(){
         return new Dimensions(50,10,10);
     }
@@ -20,5 +21,6 @@ public class PcConfig {
     public Case caseDell(Dimensions dimensions){
         return new DellCase("220B", "Dell", "240", dimensions);
     }
+
 
 }
