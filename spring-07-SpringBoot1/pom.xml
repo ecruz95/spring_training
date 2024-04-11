@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cydeo</groupId>
-    <artifactId>spring-07-SpringBoot-Demo</artifactId>
+    <artifactId>spring-07-SpringBoot1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sprinng-07-SpringBoot-Demo</name>
-    <description>sprinng-07-SpringBoot-Demo</description>
+    <name>spring-07-SpringBoot1</name>
+    <description>spring-07-SpringBoot1</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -37,7 +37,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-    </build>
-    -->
+    </build> -->
 
 </project>
