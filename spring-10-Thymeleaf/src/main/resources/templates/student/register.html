@@ -13,8 +13,34 @@
 
 <!--Concatentation-->
 
-<h2 th:text=" ${'Hello' + students.get(0).firstName}"></h2>
+<h2 th:text=" ${'Hello ' + students.get(0).firstName}"></h2>
 <h2 th:test="${ students.get(0).firstName + ' ' + students.get(0).lastName}"></h2>
+
+<!--Link-->
+<h2>
+<a th:href="@{https://cydeo.com}" >Cydeo Page</a>
+</h2>
+
+<h2>
+    <a th:href="@{/student/welcome}">Welcome</a>
+</h2>
+
+<!--Adding Parameters in Link-->
+
+<h2>
+    <a th:href="@{/student/welcome(id=3)}">Link1</a>
+</h2>
+
+<h2>
+    <a th:href="@{/student/welcome(name=${students.get(0).firstName})}">Link2</a>
+</h2>
+
+<!--Iteration-->
+<h2>Printing my list</h2>
+<ul>
+    <li th:each=" name : ${students}" th:text="${student.firstName}"></li>
+</ul>
+
 
 </body>
 </html>
