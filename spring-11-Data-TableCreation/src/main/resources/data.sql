@@ -1,0 +1,2 @@
+INSERT INTO STUDENTS(id,name)
+VALUES(1,'Mike');
