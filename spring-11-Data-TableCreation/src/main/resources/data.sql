@@ -1,2 +1,2 @@
-INSERT INTO STUDENTS(id,name)
+INSERT INTO EMPLOYEES(id,name)
 VALUES(1,'Mike');
