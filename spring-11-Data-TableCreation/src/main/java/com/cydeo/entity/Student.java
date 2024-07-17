@@ -34,5 +34,4 @@ public class Student {
 
     @Transient
     private String city;
-
 }
